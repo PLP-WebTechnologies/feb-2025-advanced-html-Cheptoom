@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Registration Form</title>
+</head>
+<body background="https://images.fineartamerica.com/public/images/overview/overviewBeach005.jpg" alt="Sample Image from Pexels" Width="100%" Height="100%"> 
+    <h1>Ordered List</h1>
+    <ol type="I">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+        <li>Item Five</li>
+    </ol>
+    <table border="1">
+        <caption>Contact Details</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+               <td>John Doe</td>
+               <td>123 Main St</td>
+               <td>+1234567890</td>
+               <td>john@gmail.com</td>
+            </tr>
+            <tr>
+               <td>Jane Smith</td>
+               <td>456 Elm St</td>
+               <td>+0987654321</td>
+               <td>jane@gmail.com</td>
+            </tr>
+            <tr>
+               <td>Robert Brown</td>
+               <td>789 Oak St</td>
+               <td>+1122334455</td>
+               <td>robert@gmail.com</td>
+            </tr>
+            <tr>
+               <td>Lisa White</td>
+               <td>321 Pine St</td>
+               <td>+5566778899</td>
+               <td>lisa@gmail.com</td>
+            </tr>
+            <tr>
+               <td>Michael Green</td>
+               <td>654 Cedar St</td>
+               <td>+9988776655</td>
+               <td>michael@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="full_name" name="full_name" placeholder="Enter your full name" required>
+        <br></br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br></br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="8" maxlength="16" placeholder="Enter a secure password" required>
+        <br></br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br></br>
+        <label for="country">Select Country:</label>
+        <select id="country" name="country" required>
+            <option value="">--Select--</option>
+            <option value="usa">United States</option>
+            <option value="uk">United Kingdom</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+        </select>
+        <br></br>
+        <label for="Gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br></br>
+        <label for="interests">Interests:</label>
+        <input type="checkbox" id="travelling" name="interests" value="travelling">
+        <label for="travelling">travelling</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label>
+        <br></br>
+        <input type="submit" value="Register">
+        <button type="reset">Reset</button>
+    </form>
+
+</body>
+</html>
